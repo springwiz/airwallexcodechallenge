@@ -1,0 +1,15 @@
+/.gradle
+/.idea
+/build
+.DS_Store
+.settings
+.springBeans
+bin
+build.sh
+integration-repo
+classes/
+/build
+buildSrc/build
+target/
+.classpath
+.project
