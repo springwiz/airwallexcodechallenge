@@ -4,7 +4,6 @@ import java.util.List;
 
 import com.airwallex.codechallenge.model.Alert;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Interface AlertPublisher.
  */
@@ -18,8 +17,16 @@ public interface AlertPublisher {
 	 */
 	void publishAlert(Alert alert) throws Exception;
 	
+	/**
+	 * Cleanup.
+	 */
 	void cleanup();
 	
+	/**
+	 * Gets the alert cache.
+	 *
+	 * @return the alert cache
+	 */
 	List<Alert> getAlertCache();
 
 }

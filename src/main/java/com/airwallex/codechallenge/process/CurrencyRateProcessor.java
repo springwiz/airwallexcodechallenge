@@ -23,6 +23,7 @@ import com.airwallex.codechallenge.output.AlertPublisher;
  */
 public class CurrencyRateProcessor {
 
+	/** The Constant log. */
 	private static final Logger log = Logger.getLogger(CurrencyRateProcessor.class.getName());
 	
 	/**
@@ -68,8 +69,10 @@ public class CurrencyRateProcessor {
 	/** The data map. */
 	private ConcurrentHashMap<String, CurrencyRateInput> dataMap = new ConcurrentHashMap<>();
 	
+	/** The pool. */
 	private ExecutorService pool = Executors.newCachedThreadPool();
 	
+	/** The currency rates pairs. */
 	private List<String> currencyRatesPairs = new ArrayList<>(); {
 		currencyRatesPairs.add("CNYAUD");
 		currencyRatesPairs.add("USDAUD");

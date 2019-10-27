@@ -5,7 +5,6 @@ package com.airwallex.codechallenge.output;
 
 import java.io.IOException;
 
-// TODO: Auto-generated Javadoc
 /**
  * A factory for creating Readers.
  *

@@ -4,7 +4,7 @@ import java.util.List;
 
 import com.airwallex.codechallenge.model.CurrencyRate;
 
-// TODO: Auto-generated Javadoc
+
 /**
  * The Interface Reader.
  */

@@ -6,7 +6,6 @@ package com.airwallex.codechallenge.model;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class CurrencyRate.
  *

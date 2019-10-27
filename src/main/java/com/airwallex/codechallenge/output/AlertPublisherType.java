@@ -3,7 +3,6 @@
  */
 package com.airwallex.codechallenge.output;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Enum AlertPublisherType.
  */

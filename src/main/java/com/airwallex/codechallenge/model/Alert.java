@@ -6,7 +6,6 @@ package com.airwallex.codechallenge.model;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import java.text.DecimalFormat;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class Alert.
  *

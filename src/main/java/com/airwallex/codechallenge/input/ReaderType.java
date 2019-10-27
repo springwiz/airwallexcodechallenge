@@ -3,7 +3,6 @@
  */
 package com.airwallex.codechallenge.input;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Enum ReaderType.
  */
